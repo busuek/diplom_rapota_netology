@@ -74,8 +74,8 @@ pip3 install ansible
 
 ### Создание тестового приложения
 
-1) Создал в новом репозитории [страничку](https://github.com/IlshatSharafukov/diplom/blob/main/html/index.html) c цветным крутящимся квадратиком по центру экрана. 
-Цвет этого квадрата можно будет менять при тестах CI\CD. Там же оставил [dockerfile](https://github.com/IlshatSharafukov/diplom/blob/main/dockerfile).
+1) Создал в новом репозитории [страничку](https://github.com/busuek/diplom_rapota_netology/blob/main/diplom/html/index.html) c цветным крутящимся квадратиком по центру экрана. 
+Цвет этого квадрата можно будет менять при тестах CI\CD. Там же оставил [dockerfile](https://github.com/busuek/diplom_rapota_netology/blob/main/diplom/dockerfile).
 
 2) Создал container registry в ЯО и запушил в него docker image:
 
@@ -105,7 +105,7 @@ kubectl -n monitoring delete networkpolicies.networking.k8s.io --all
 
 ![7](img/7.png)
 
-3) Создал манифест для деплоя [тестового приложения](https://github.com/IlshatSharafukov/diplom/blob/main/deploy.yaml) и запустил [приложение](http://178.154.231.231:30080/)
+3) Создал манифест для деплоя [тестового приложения](https://github.com/busuek/diplom_rapota_netology/blob/main/diplom/deploy.yaml) и запустил [приложение](http://178.154.231.231:30080/)
 
 ![8](img/8.png)
 
